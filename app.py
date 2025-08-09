@@ -140,7 +140,7 @@ st.markdown('<div class="card">', unsafe_allow_html=True)
 st.markdown('<h2 class="section-header">1) The Variables of Your Identity 🧠</h2>', unsafe_allow_html=True)
 st.markdown("""
 <p style='font-size: 1.1rem;'>
-    In math, variables like 'x' and 'y' can change. In life, your **effort**, **practice**, and **perseverance** are your variables. You control them, and they determine the outcome of your equation.
+    In math, variables like 'x' and 'y' can change. In life, your effort, practice, and perseverance are your variables. You control them, and they determine the outcome of your equation.
 </p>
 <ul style='list-style-type: none; padding-left: 0;'>
     <li class="highlight-box" style="background-color: #E3F2FD; border-left: 5px solid #2196F3;">
@@ -170,7 +170,7 @@ st.markdown('<div class="card">', unsafe_allow_html=True)
 st.markdown('<h2 class="section-header">2) The Power of Transformation 🚀</h2>', unsafe_allow_html=True)
 st.markdown("""
 <p style='font-size: 1.1rem;'>
-    Think of yourself as a point on a graph. **Mistakes**, **effort**, and **learning** are like transformations that move you toward your goals. Your goal isn't to be a static point; it's to transform into a better version of yourself.
+    Think of yourself as a point on a graph. Mistakes, effort, and learning are like transformations that move you toward your goals. Your goal isn't to be a static point; it's to transform into a better version of yourself.
 </p>
 """, unsafe_allow_html=True)
 
