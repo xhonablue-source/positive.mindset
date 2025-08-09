@@ -203,8 +203,8 @@ st.markdown("""
 st.subheader("Your Growth Journal")
 
 # Challenge Entry (The 'problem' you need to solve)
-challenge_text = st.text_area("Describe a challenge you're facing (your 'problem'):", height=100, key="journal_challenge_text_new")
-if st.button("Get Feedback on Challenge", key="feedback_challenge_btn_new"):
+challenge_text = st.text_area("Describe a challenge you're facing (your 'problem'):", height=100, key="journal_challenge_text")
+if st.button("Get Feedback on Challenge", key="feedback_challenge_btn"):
     if challenge_text:
         journal_prompt = f"As a growth mindset coach for a middle/high school student, provide encouraging and constructive feedback on this challenge: {challenge_text}. Use the analogy of a math problem you need to solve. Emphasize perseverance and that every step is progress."
         with st.spinner("Dr. X is thinking..."):
@@ -214,8 +214,8 @@ if st.button("Get Feedback on Challenge", key="feedback_challenge_btn_new"):
         st.warning("Please describe your challenge before getting feedback.")
 
 # Effort Entry (The 'operations' you're using to solve the problem)
-effort_taken = st.text_area("What effort have you made so far? (your 'operations'):", height=100, key="journal_effort_taken_new")
-if st.button("Get Feedback on Effort", key="feedback_effort_btn_new"):
+effort_taken = st.text_area("What effort have you made so far? (your 'operations'):", height=100, key="journal_effort_taken")
+if st.button("Get Feedback on Effort", key="feedback_effort_btn"):
     if effort_taken:
         journal_prompt = f"As a growth mindset coach, acknowledge and praise the effort described: {effort_taken}. Reinforce that effort is the 'variable' that changes the outcome and encourage continued dedication."
         with st.spinner("Dr. X is thinking..."):
@@ -225,8 +225,8 @@ if st.button("Get Feedback on Effort", key="feedback_effort_btn_new"):
         st.warning("Please describe your effort before getting feedback.")
 
 # Mistake Entry (A 'wrong' operation that led to a lesson)
-mistake_text = st.text_area("Describe a mistake you’ve made ('wrong' operation):", height=100, key="journal_mistake_text_new")
-if st.button("Get Feedback on Mistake", key="feedback_mistake_btn_new"):
+mistake_text = st.text_area("Describe a mistake you’ve made ('wrong' operation):", height=100, key="journal_mistake_text")
+if st.button("Get Feedback on Mistake", key="feedback_mistake_btn"):
     if mistake_text:
         journal_prompt = f"As a growth mindset coach, help reframe this mistake: {mistake_text}. Use a math analogy to explain that mistakes are valuable for 'debugging' the equation and finding the correct path. Emphasize that mistakes are valuable for growth and learning."
         with st.spinner("Dr. X is thinking..."):
@@ -236,8 +236,8 @@ if st.button("Get Feedback on Mistake", key="feedback_mistake_btn_new"):
         st.warning("Please describe your mistake before getting feedback.")
 
 # Lesson Learned Entry (The 'correct' operation for next time)
-lesson_learned = st.text_area("What did you learn from that mistake? (the 'correct' operation for next time):", height=100, key="journal_lesson_learned_new")
-if st.button("Get Feedback on Lesson Learned", key="feedback_lesson_btn_new"):
+lesson_learned = st.text_area("What did you learn from that mistake? (the 'correct' operation for next time):", height=100, key="journal_lesson_learned")
+if st.button("Get Feedback on Lesson Learned", key="feedback_lesson_btn"):
     if lesson_learned:
         journal_prompt = f"As a growth mindset coach, validate the learning from this mistake: {lesson_learned}. Encourage the student to apply this 'new operation' to their equation in the future."
         with st.spinner("Dr. X is thinking..."):
@@ -247,8 +247,8 @@ if st.button("Get Feedback on Lesson Learned", key="feedback_lesson_btn_new"):
         st.warning("Please describe your lesson learned before getting feedback.")
 
 # Growth Action Entry (The plan to solve the next equation)
-growth_action = st.text_input("One action you’ll take to grow this week (your next 'operation'):", "e.g., Ask for help on a tough math problem", key="journal_growth_action_new")
-if st.button("Get Feedback on Growth Action", key="feedback_growth_action_btn_new"):
+growth_action = st.text_input("One action you’ll take to grow this week (your next 'operation'):", "e.g., Ask for help on a tough math problem", key="journal_growth_action")
+if st.button("Get Feedback on Growth Action", key="feedback_growth_action_btn"):
     if growth_action:
         journal_prompt = f"As a growth mindset coach, provide encouraging feedback on this planned growth action: {growth_action}. Emphasize the importance of taking concrete steps to solve your personal 'equation'."
         with st.spinner("Dr. X is thinking..."):
