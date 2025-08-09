@@ -121,7 +121,7 @@ st.markdown('<div class="card">', unsafe_allow_html=True)
 st.markdown('<h2 class="section-header">The Core Idea: Your Identity as an Equation</h2>', unsafe_allow_html=True)
 st.markdown("""
 <p style='font-size: 1.1rem; line-height: 1.6;'>
-    Welcome! This MathCraft program helps you build a **positive mindset** using math concepts you already know.
+    Welcome! This MathCraft program helps you build a positive mindset using math concepts you already know.
     Your identity isn't a fixed number; it's a dynamic equation you are constantly solving.
     The most important part? The **equal sign (=)**.
 </p>
